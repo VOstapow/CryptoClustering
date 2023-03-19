@@ -12,7 +12,7 @@ This project allowed me to use my knowledge of Python and unsupervised learning 
 
 * Get the summary statistics and plot the data to see what the data looks like before proceeding.
 
-<img src="Images/Original Market Data.png" width="300" />
+<img src="Images/Original Market Data.png" width="500" />
 
 
 ## Prepare the Data
@@ -23,12 +23,13 @@ This project allowed me to use my knowledge of Python and unsupervised learning 
 
     * The first five rows of the scaled DataFrame should appear as follows:
 
-    <img src="https://static.bc-edx.com/data/dl-1-2/m19/lms/img/scaled_DataFrame.png" width="300" />
+        <img src="https://static.bc-edx.com/data/dl-1-2/m19/lms/img/scaled_DataFrame.png" width="600" />
 
     * Create a scatter plot using hvPlot by setting `x="price_change_percentage_24h"` and `y="price_change_percentage_7d"`. 
+
     * Color the graph points with the labels found using K-Means and the crypto name in the `hover_cols` parameter to identify the cryptocurrency represented by each data point.
 
-     <img src="Images/Original Market Predictions.png" width="300" />
+        <img src="Images/Original Market Predictions.png" width="500" />
         
 
 ## Find the Best Value for k Using the Original Scaled DataFrame
@@ -45,7 +46,7 @@ This project allowed me to use my knowledge of Python and unsupervised learning 
 
    * Plot a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k.
 
-   <img src="Images/Inertia.png" width="300" />
+        <img src="Images/Inertia.png" width="500" />
 
    * Answer the following question in your notebook: What is the best value for k? 
 
@@ -69,7 +70,7 @@ This project allowed me to use my knowledge of Python and unsupervised learning 
 
         * Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
 
-        <img src="Images/Original Market Predictions.png" width="300" />
+        <img src="Images/Original Market Predictions.png" width="500" />
         
 
 ## Optimize Clusters with Principal Component Analysis
@@ -99,7 +100,7 @@ This project allowed me to use my knowledge of Python and unsupervised learning 
 
 * Plot a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k.
 
-<img src="Images/Elbow PCA.png" width="300" />
+    <img src="Images/Elbow PCA.png" width="500" />
 
 
 * Answer the following question in your notebook:
@@ -127,15 +128,17 @@ This project allowed me to use my knowledge of Python and unsupervised learning 
     * Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
     * Answer the following question: What is the impact of using fewer features to cluster the data using K-Means?
 
-    <img src="Images/K-Means with fewer features.png" width="300" />
+    <img src="Images/K-Means with fewer features.png" width="500" />
 
 ## Visualize and Compare the Results
 
 * In this section, you will visually analyze the cluster analysis results by contrasting the outcome with and without using the optimization techniques.
-  <img src="Images/Elbow comparison.png" width="300" />  
+
+  <img src="Images/Elbow comparison.png" width="500" />  
 
 * Create a composite plot to contrast the clusters.
-  <img src="Images/Predictions contrast.png" width="300" />  
+
+  <img src="Images/Predictions contrast.png" width="500" />  
 
 * Answer the following question on your notebook: After visually analyzing the cluster analysis results, what is the impact of using fewer features to cluster the data using K-Means?
 
